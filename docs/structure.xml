@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="API Documentation" version="2.8.5">
+  <partials/>
+  <file path="doc.php" generated-path="doc.html" hash="35d7979bf3ec9e8238b45fd503b6ac95" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyzsS/IKODiykvMTS0uSExOVfDMK8ssyczPs+biKkotLM0sSo3Pz0tO1VByzslMzSvRAypX0rRGk/MvSkktwiPlmZeWj106uCQ/OdsnsxiHwS6pxSWZeYkgBzmmpBSlFhfD1KEpdK1ITi0AKYPJAwBChUuu</source>
+  </file>
+  <file path="example/stocklist.php" generated-path="example.stocklist.html" hash="9f5ae3af69290b3043b7a388d603bb42" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJxFj81qAzEMhO/7FML0sIXU+wD9O2xyWCgEmhwDxnVE18SRXVlt6NtXu9u0t2E080l6eC5jaZqug+FcMgvIiNCniCQQkq/VNowfn5HRZQrYOrceXp2zprO2W3JWCeb2fob0jF4QPBBerphLlFGd4lkIOeQjrsCXeMJv8HQEpK/Imc4abW7CUnmc+4dBRxIzHRZSa/ab3b7frjdmBUawijImmXLw6XrC9k18pPmPKjmcUqwK/pPK/t1y9/SOspv8F/XbqV44kjhu/+Pq/gDMtmC+</source>
+  </file>
+  <file path="DestinationAddress.php" generated-path="DestinationAddress.html" hash="64f5581691e2b70a06d1811e21d83f8c" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="8" package="Default">
+      <extends/>
+      <implements>\JsonSerializable</implements>
+      <name>DestinationAddress</name>
+      <full_name>\Invition\Partnerclient\DestinationAddress</full_name>
+      <docblock line="8">
+        <description>DestinationAddress contains the address details for an order.</description>
+        <long-description></long-description>
+        <tag name="package" line="8" description="Default"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="13" package="Default">
+        <name>$firstname</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::firstname</full_name>
+        <default></default>
+        <docblock line="13">
+          <description>First name of the recipient
+Max 100 characters.</description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="19" package="Default">
+        <name>$lastname</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::lastname</full_name>
+        <default></default>
+        <docblock line="19">
+          <description>Lastname of the recipient.</description>
+          <long-description>Max 100 characters.</long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="25" package="Default">
+        <name>$company</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::company</full_name>
+        <default></default>
+        <docblock line="25">
+          <description>Company name of the recipient, can be empty.</description>
+          <long-description>max 100 characters.</long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="30" package="Default">
+        <name>$streetname</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::streetname</full_name>
+        <default></default>
+        <docblock line="30">
+          <description>Streetname, max 100 characters.</description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="36" package="Default">
+        <name>$housenumber</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::housenumber</full_name>
+        <default></default>
+        <docblock line="36">
+          <description>Housenumber excluding suffix, as a string.</description>
+          <long-description>Max 50 characters.</long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="42" package="Default">
+        <name>$housenumberAddition</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::housenumberAddition</full_name>
+        <default></default>
+        <docblock line="42">
+          <description>Housenumber suffix/addition, as a string.</description>
+          <long-description>Max 50 characters.</long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="47" package="Default">
+        <name>$city</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::city</full_name>
+        <default></default>
+        <docblock line="47">
+          <description>Destination city, max 100 characters.</description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="52" package="Default">
+        <name>$state</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::state</full_name>
+        <default></default>
+        <docblock line="52">
+          <description>State, if applicable. Max length 100 characters.</description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="57" package="Default">
+        <name>$zipcode</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::zipcode</full_name>
+        <default></default>
+        <docblock line="57">
+          <description>Zipcode or postalcode. max length 20 characters.</description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="62" package="Default">
+        <name>$countryCode</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::countryCode</full_name>
+        <default></default>
+        <docblock line="62">
+          <description>Country 2-character code, must be set to a valid value such as "NL".</description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="107" package="Default">
+        <name>jsonSerialize</name>
+        <full_name>\Invition\Partnerclient\DestinationAddress::jsonSerialize()</full_name>
+        <docblock line="107">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="107" code="PPC:ERR-50008">No summary for method jsonSerialize()</error>
+    </parse_markers>
+    <source>eJylVVFP2zAQfk5+xanqQ0GlhUrTpnVlY6BpQ2x74GHSNKlyHYd4TezIdoAy8d93dpzWTQth2kMr9bvvvjvuvjPv3pdZGceCFEyXhDL4Im654VJM43h8eBjDIVwwbbggFjxLEsW0BiqFIVxoMBkD4sGEIZZrSKUCIkCqhKkRCoxjmhOM79HhRZmzggmj4delluKaKU5y/kAWOYM/cWQ7iLCFT1xpA7ZJkKkrqhjlJcdMF/9K7uHk+BhoRhShhik9svg4jspqkXMK/dQqWIFpFI3HcCkzEW/0r0gd3FEfvVA+J6H6hWSB+LksSiJW+9sfAsVZLRiwojSrulzRWY7WknW1ZmNByWujGHMNDV+gptfsWvC7QdZSyptA8bOsNBNVsWAK2D3Nq4SLG9BVmvL7IRANBFAGsc3EXj1XM9voTW3N10/UqiuM0WPub/zPUmdexpU8C0oG3gTKzeolY7M8HJiTypcFIWprA8Tg8HkKpCyRbh09cr3mTNyYrHMlmD4N9H7yksoE/aOglBjN7a+R69ILTp7Te6jT6/2evJlM4OOPLYtWwqgVTI7WEmD5OIYKDw/tqZkBI3H0t3ifif2uEKxoZhfS+3bV27Wokzy3VYNKH7hAcUHybXpaCeqGP5/j24LrragZ9BNiyExUeX5gH4OIpx6aBWCkmKkUPldR9IgffHwYwa5qpm2uv2QrmJ1C3/Xsk/QdNzQb2FiNQESJZtBbvxO9t5YHUd9kXB+drnGYeSVbMYoWWG45DQSal6CV38Bd6f6yW9ke7UreHHIrfxPokgiOpaURRP5BZN5c7tNqzVF2jgbvrT0XhLqHgqe0Mw/EuhL9zbRSPdq9R2f/+R6F4DKeUnFWxs9jvHshv4P/k2xQu7e+ASBKkdXAdREY2Zm/5eJhTVqbNeA0mKc0hgwYHvKEwHQBZ4NaWrTlq4AWwF5ur3f2ZzTGaTq1/gjbtO9406P1wFZ79nmug82eg7CH1iMIdrk1h/UiLfNgahf2GP8FtXXAWA==</source>
+  </file>
+  <file path="StockList.php" generated-path="StockList.html" hash="28f114471589a471b8ccae650fc8ecc1" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="5" package="Default">
+      <extends/>
+      <name>StockList</name>
+      <full_name>\Invition\Partnerclient\StockList</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="7" package="Default">
+        <name>$items</name>
+        <full_name>\Invition\Partnerclient\StockList::items</full_name>
+        <default></default>
+        <docblock line="7">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+    </class>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="20" package="Default">
+      <extends/>
+      <name>StockItem</name>
+      <full_name>\Invition\Partnerclient\StockItem</full_name>
+      <docblock line="20">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="20" description="Default"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="21" package="Default">
+        <name>$id</name>
+        <full_name>\Invition\Partnerclient\StockItem::id</full_name>
+        <default></default>
+        <docblock line="21">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="22" package="Default">
+        <name>$dimensionID</name>
+        <full_name>\Invition\Partnerclient\StockItem::dimensionID</full_name>
+        <default></default>
+        <docblock line="22">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="23" package="Default">
+        <name>$dimensionWidthMM</name>
+        <full_name>\Invition\Partnerclient\StockItem::dimensionWidthMM</full_name>
+        <default></default>
+        <docblock line="23">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="24" package="Default">
+        <name>$dimensionHeightMM</name>
+        <full_name>\Invition\Partnerclient\StockItem::dimensionHeightMM</full_name>
+        <default></default>
+        <docblock line="24">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="25" package="Default">
+        <name>$sku</name>
+        <full_name>\Invition\Partnerclient\StockItem::sku</full_name>
+        <default></default>
+        <docblock line="25">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="26" package="Default">
+        <name>$name</name>
+        <full_name>\Invition\Partnerclient\StockItem::name</full_name>
+        <default></default>
+        <docblock line="26">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="27" package="Default">
+        <name>$availability</name>
+        <full_name>\Invition\Partnerclient\StockItem::availability</full_name>
+        <default></default>
+        <docblock line="27">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="28" package="Default">
+        <name>$public</name>
+        <full_name>\Invition\Partnerclient\StockItem::public</full_name>
+        <default></default>
+        <docblock line="28">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+    </class>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="65" package="Default">
+      <extends/>
+      <name>StockItemAvailability</name>
+      <full_name>\Invition\Partnerclient\StockItemAvailability</full_name>
+      <docblock line="65">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="65" description="Default"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="66" package="Default">
+        <name>$status</name>
+        <full_name>\Invition\Partnerclient\StockItemAvailability::status</full_name>
+        <default></default>
+        <docblock line="66">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="67" package="Default">
+        <name>$canBackorder</name>
+        <full_name>\Invition\Partnerclient\StockItemAvailability::canBackorder</full_name>
+        <default></default>
+        <docblock line="67">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="68" package="Default">
+        <name>$amountLeft</name>
+        <full_name>\Invition\Partnerclient\StockItemAvailability::amountLeft</full_name>
+        <default></default>
+        <docblock line="68">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\StockList</error>
+      <error line="20" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\StockItem</error>
+      <error line="65" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\StockItemAvailability</error>
+      <error line="7" code="PPC:ERR-50007">No summary for property $items</error>
+      <error line="21" code="PPC:ERR-50007">No summary for property $id</error>
+      <error line="22" code="PPC:ERR-50007">No summary for property $dimensionID</error>
+      <error line="23" code="PPC:ERR-50007">No summary for property $dimensionWidthMM</error>
+      <error line="24" code="PPC:ERR-50007">No summary for property $dimensionHeightMM</error>
+      <error line="25" code="PPC:ERR-50007">No summary for property $sku</error>
+      <error line="26" code="PPC:ERR-50007">No summary for property $name</error>
+      <error line="27" code="PPC:ERR-50007">No summary for property $availability</error>
+      <error line="28" code="PPC:ERR-50007">No summary for property $public</error>
+      <error line="66" code="PPC:ERR-50007">No summary for property $status</error>
+      <error line="67" code="PPC:ERR-50007">No summary for property $canBackorder</error>
+      <error line="68" code="PPC:ERR-50007">No summary for property $amountLeft</error>
+    </parse_markers>
+    <source>eJzFVMGO2jAQPSdfMUJ7oAjKfeluu9UeirR76qGHqoocZ9hYJDYbT0Co4t87dkLiIChcqkpIYTzz3oznzfjT502+iWMtSrQbIRGWeqtIGb2IY1kIa+E7Gbl+UZbgdxzN5/BUVWIPZtU4loSljaNNnRZKwp1yJkOj+WQSRzCBL0oTVloUzpp3gataS5cFkkQabamqJY3vMkHig0sTrUyFQubQnIGwTA0Pj+BNl7MJi3xCeACNu76ecR+18EGUKzt79LX9/MXRHuVch5h/h8FNHcxxdzfKFr2RqRK15bqXzwvgXuxy1CA0+CpyrlJAEAIWaQouOZQotOW/gjhE1pZMCZuKewOqFG8IHFLhe60qzIAMmCrDisPRM388U8APlVH++nqutm+o3nIa+Oy6DiwndmCKrVCFSFWhaB8cN18++BdirnHv5dyKosZWS7tTJPOx87UnUliEkcpG987qdMychB7p5Y1Spl8vekDXieQUGopzK8fOdTopywtMrRA30+Venct8R/WuELKiQwI+uAJxsg8x7uQKKByOITj0nG7gU+AbtyKf529GaMjcjtWlwg6XFzfMGy6xJUG19StrNPLjdc9jpWfW4UZTGBVm1xumpplZtXbPIYX+KuTar6ZnSo0peK2noHSmpCC07j3gpe03FxgEKUJ6BGIW7F1pak0vuCJP15juYfWZoWDHlMst9u4daZ6a5h7cmaDi/7+gTVUn43is9G/Dxd1JutYM8WG3r42ob1zi+nUyoV2Db5mlP8dkJAc=</source>
+  </file>
+  <file path="example/bulk.php" generated-path="example.bulk.html" hash="0eedc48dc3ad5593d3d8dd396ef261ad" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJx9kE1LxDAQhu/9FUMRrNBtDx79YnFVeloRjwshNLPbYJvEybSL/95Ju8Wbt5B53nee5P4pdCHL6hqaIXhiaHsdI0Y4IzhEA0dP0BJqtu4E2oEng1RlhN+jJVTetVgotWs+lKryuqrq596i40pq85u7f7gdRumUXu+2xhDGuGaSzaulyEkiIo8BuEPYvjdil8rFw0AgP1mDYAWz3IGGoIkdUusNlqCD/cKfmUQ3WfJuSFrZ1aXiQZ53hkMjs6RwWLSL/OVtn5eQs9hJPh173+p+9fr0cEKefXqdoOVDILLmMZYwRpyHy5brmOj9TAzInTciMAcad/TicLHZPK7YLLC5TesmTcqMQyj+EnL7C9J+kYM=</source>
+  </file>
+  <file path="Exception.php" generated-path="Exception.html" hash="da4d7cf3bf7f8468f30d8496cdb5dbf0" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="5" package="Default">
+      <extends>\Exception</extends>
+      <name>Exception</name>
+      <full_name>\Invition\Partnerclient\Exception</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+    </class>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="27" package="Default">
+      <extends>\Exception</extends>
+      <name>APIException</name>
+      <full_name>\Invition\Partnerclient\APIException</full_name>
+      <docblock line="27">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="27" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="28" package="Default">
+        <name>__toString</name>
+        <full_name>\Invition\Partnerclient\APIException::__toString()</full_name>
+        <docblock line="28">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\Exception</error>
+      <error line="27" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\APIException</error>
+      <error line="28" code="PPC:ERR-50008">No summary for method __toString()</error>
+    </parse_markers>
+    <source>eJytlE1r4zAQhs/xrxhCD+2h6X2z25Jtcwh022WTy0IhKNY4FtiSkcZJSsl/35FkJ14Sd0tZ8MGM3pl55kP6elflVZJoUaKrRIow0xtFyuhxkqSFcA6muxQrbwHcEWrp4OVgetuPk5sb/oC/RW7NVsM2Rw0C7guFmkA5UNqR0KQEoYStohyEZuNGFEoCcjprdOm1bKlx5KNdqIbikGkW9dOO/Bto3B7xLodnYg6vegCfrUR7ffsLS7PBR6URtsJBKoqiAxlE4XCFhdFrpddAhouTKsvQegjjJaMmwbONwSnHjq8PLAqLQr6CDfkkZNaULBMUdT1Fe/cHg+7J0PcAsDCLXLngclp+4ZNJloM21BB7XGKXyPmvbkx3mNaEkCk/5oCnDUh0pLQIKyCktMhLkXNNK2RPh9QD/0M5xw17OHpPGucT8jJKz2X6HHKoFnxDuPUWoeJQYVpxNuadnj+Zw+TOkP4duxeOdyfKytpRMw6+PgFVHnekRMqN5F/2DLuVe1V73VS7jz2kgXMSF2vaxj4hjhx5ZwfD3FqYD5bQxV9hZrin/6kA3u0W/jeeudQRwrfwAPCK4V63D9Tk5+zdNyoZVPWqUClktU6DaLkkMyfLxJdXwOcDi1Rbb79/nMznyyWMYPgF3i781bm+5afRiTXuX/RwnAz2yf4PS0DTCw==</source>
+  </file>
+  <file path="ShippingMethods.php" generated-path="ShippingMethods.html" hash="2052a1d07c18a504fe1057caf1c5d812" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="5" package="Default">
+      <extends/>
+      <name>ShippingMethods</name>
+      <full_name>\Invition\Partnerclient\ShippingMethods</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="7" package="Default">
+        <name>$methods</name>
+        <full_name>\Invition\Partnerclient\ShippingMethods::methods</full_name>
+        <default></default>
+        <docblock line="7">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+    </class>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="20" package="Default">
+      <extends/>
+      <name>ShippingMethod</name>
+      <full_name>\Invition\Partnerclient\ShippingMethod</full_name>
+      <docblock line="20">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="20" description="Default"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="21" package="Default">
+        <name>$id</name>
+        <full_name>\Invition\Partnerclient\ShippingMethod::id</full_name>
+        <default></default>
+        <docblock line="21">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="22" package="Default">
+        <name>$name</name>
+        <full_name>\Invition\Partnerclient\ShippingMethod::name</full_name>
+        <default></default>
+        <docblock line="22">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="23" package="Default">
+        <name>$type</name>
+        <full_name>\Invition\Partnerclient\ShippingMethod::type</full_name>
+        <default></default>
+        <docblock line="23">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\ShippingMethods</error>
+      <error line="20" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\ShippingMethod</error>
+      <error line="7" code="PPC:ERR-50007">No summary for property $methods</error>
+      <error line="21" code="PPC:ERR-50007">No summary for property $id</error>
+      <error line="22" code="PPC:ERR-50007">No summary for property $name</error>
+      <error line="23" code="PPC:ERR-50007">No summary for property $type</error>
+    </parse_markers>
+    <source>eJy1UMtOwzAQPNtfsapyCJGq3AktcOyBE0eEqq3j4FVTx4qdVhHKv5PNo7QViBOSL7M7s+OZh0dnnJQWD9o7VBo29kiBKptJqUr0Hl4NOUf240UHU+UePqVIU3iua2yhKm7XUrhmV5KC6DAO+jsiTRIpIIEnskHXFktG6ZlaNFaxJWy3qrI+1I0KcZRjwDt2E0VVa1QGxhmgh4hgtYYBjr4jUUymsAKrTzdfiy/p2cAOhvxyPX307b2XTQd43cn+dT+3wG5zTmL2DLjHCxhax/A/GtjrdujgiGWjp/j+REGZmHfTRKHXsKB8cc9oTkzc0KgcihC7/vw++xZwjGsJT/4QcdhrEU9+FXXnjr8Avbi9gA==</source>
+  </file>
+  <file path="Client.php" generated-path="Client.html" hash="25762184f2c894b51e4441517757f91d" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="14" package="Default">
+      <extends/>
+      <name>Client</name>
+      <full_name>\Invition\Partnerclient\Client</full_name>
+      <docblock line="14">
+        <description>Client implements the Invition\Partnerclient Partner API, it provides methods to create an order, upload images and get existing order info.</description>
+        <long-description></long-description>
+        <tag name="package" line="14" description="Default"/>
+      </docblock>
+      <constant namespace="Invition\Partnerclient" line="15" package="Default">
+        <name>version</name>
+        <full_name>\Invition\Partnerclient\Client::version</full_name>
+        <value>"0.1"</value>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="21" package="Default">
+        <name>__construct</name>
+        <full_name>\Invition\Partnerclient\Client::__construct()</full_name>
+        <docblock line="21">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$partnercode</name>
+          <default></default>
+          <type>\Invition\Partnerclient\string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$apikey</name>
+          <default></default>
+          <type>\Invition\Partnerclient\string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$environment</name>
+          <default>"test"</default>
+          <type>\Invition\Partnerclient\string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="93" package="Default">
+        <name>newOrder</name>
+        <full_name>\Invition\Partnerclient\Client::newOrder()</full_name>
+        <docblock line="93">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$shippingKind</name>
+          <default>"dropship"</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="98" package="Default">
+        <name>getStockList</name>
+        <full_name>\Invition\Partnerclient\Client::getStockList()</full_name>
+        <docblock line="98">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="103" package="Default">
+        <name>getShippingMethods</name>
+        <full_name>\Invition\Partnerclient\Client::getShippingMethods()</full_name>
+        <docblock line="103">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="108" package="Default">
+        <name>uploadImage</name>
+        <full_name>\Invition\Partnerclient\Client::uploadImage()</full_name>
+        <docblock line="108">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$imageData</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="116" package="Default">
+        <name>getOrder</name>
+        <full_name>\Invition\Partnerclient\Client::getOrder()</full_name>
+        <docblock line="116">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$reference</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="121" package="Default">
+        <name>getOrderByPartnerReference</name>
+        <full_name>\Invition\Partnerclient\Client::getOrderByPartnerReference()</full_name>
+        <docblock line="121">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$reference</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="21" code="PPC:ERR-50015">Argument $partnercode is missing from the Docblock of __construct</error>
+      <error line="21" code="PPC:ERR-50015">Argument $apikey is missing from the Docblock of __construct</error>
+      <error line="21" code="PPC:ERR-50015">Argument $environment is missing from the Docblock of __construct</error>
+      <error line="21" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="93" code="PPC:ERR-50015">Argument $shippingKind is missing from the Docblock of newOrder</error>
+      <error line="93" code="PPC:ERR-50008">No summary for method newOrder()</error>
+      <error line="98" code="PPC:ERR-50008">No summary for method getStockList()</error>
+      <error line="103" code="PPC:ERR-50008">No summary for method getShippingMethods()</error>
+      <error line="108" code="PPC:ERR-50015">Argument $imageData is missing from the Docblock of uploadImage</error>
+      <error line="108" code="PPC:ERR-50008">No summary for method uploadImage()</error>
+      <error line="116" code="PPC:ERR-50015">Argument $reference is missing from the Docblock of getOrder</error>
+      <error line="116" code="PPC:ERR-50008">No summary for method getOrder()</error>
+      <error line="121" code="PPC:ERR-50015">Argument $reference is missing from the Docblock of getOrderByPartnerReference</error>
+      <error line="121" code="PPC:ERR-50008">No summary for method getOrderByPartnerReference()</error>
+    </parse_markers>
+    <source>eJylV1lv4zYQfrZ/BUsYCznwkV0URWHXaVPH2XWbxK7tPC0WgiJNIjYypZK0E6PIf+/w0OEjx6ZPCamZb74ZzuVffs3irF7nwRJkFoRAxnzNFEt5v14X8M+KCfBTHoLn+2fjme93aHciIhAdVKPN/nMy85hlGeN3l6DiNJKvSas0vL9gUr0iZyyP+W36itzoMYRMO5HL1btHR3VyRIYJA64IW2YJLPE/SVRcukymgVAcBDmdjluEKZKJdM0ikGRp3SAqJaGAQAEJOEk1mxZZZUkaRIgZ3KFkwCNyB4rAI7qDAbBShGnSyKBbD5NAypzIv/VamHKpyBqE1AwGhB53PlJkXMsEW2tLjcyyCtMI+pXrIGP3sKneAF8bxdVNwkJyu+Kh8cr3jQ2xCpWHfzSpKmaL5JcWsTwjHhMp14HSxBRIRZuac62hYibbJxUUFNghmgtZVP29YJx/QgP6vmIHPz5VfC99QN3r2YXX7OXsNA35wFQYeyWaZRcGEgjFx4torzgGYVg5GV/KYwRrc6oJUCvBCY2VymSv20WzHdopDeCBuWzp8KRLtTO1G0yJ+34BlqRhkOzDIZr5EqdS9X4+Pv60qx3BbbBKlFFUsUgfCIcHUuSyR9FykLCIVOKlk7uGITNR00lewyz/jXEFggeJPnUPJESUfgbl4Xup2L1nuBLJDIsJw4Ivok8+40zloS3C37FK2qjzLZeIUqfvVcGa/e+mNk2l49YijShQwfspGiEJKs22WbXIEEUn04U/vJ4vJpez0V/Xo/miReh0Ml/YmBrTf8wnV2jsb5lyH7hObM9Sehu6Rjsfjy7O5s4Vjff24LVIIESw8egwxahx1V5sMuiRIMswZoGOV1czo8g7l7gAfqfiHqEdLJMEuFeabb7jLQ6zasQQYFOTGJmv31zJvRqLL4vF9Mvo9Gw0c275SxB34DkXH9s4MNqVDqJ92G8z6KqVtL2kImQvmiW75hsf6Xo+mp1+Hl3p58dxUXAwHbpNO7ZV93quRb8RdTZaXM+uFrPTq/m5dhnbL5R5lScwPEK4Vy+1hlSBWslcCMeJHh/bhrSd8dX5xMTVH07ORiWxMEkl7MOyWy9H/mEwIJ+Oj+3bHW42OAOJcOVmsxUiovsYcRgYeftfhxLswzHRjpkHKSrkSTsjQGJXy6sogp0qyksgjCG8R6MzI36eipEQqZCe09+qGnv1ven8rAVMHXtn44FxwtmRgVAb34zxqggmCWi1IXqBw/DDB1J+wwmRf8IIE+qGZa2Bu5XE7UAP0a8Yn0MKHfrNjoM3Wb+0gM8QcF+3OJQkOnhLDrBwWobE03ZaYNDKzMiBWuS4RfgqSaojaDfoqG2WNsw8txH+yXg0oBG6qG8oDnQjYHu8XZYGxqjT0+mBRV1V38oFo9I/bB0rp1gtPTdGinQse68ehlRqQVqF1iRKdafYPmEKlrL5gsXt1fdVu07cdzvmPoUdvIKIU3iOit1Lx3ot9RpmOz3TNbe1QOXNyDZh/ejUSFIyOCE3uM389GMx90qIFgra2j3glBnfFkXSfILvF2/7RMAtCASH50PpUqCQzJNF/wR4OaomK2QX07xU3olrgVRtMS8R+X3jfh/Mcsj/Q+1mk0+adgHyHr5P9f8A8F91jg==</source>
+  </file>
+  <file path="example/order.php" generated-path="example.order.html" hash="07c75f4c72a1e35deaf2e3c734cbe483" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>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</source>
+  </file>
+  <file path="OrderInfo.php" generated-path="OrderInfo.html" hash="c6285e9b1bfa439324334c02a5360a4f" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="8" package="Default">
+      <extends/>
+      <name>OrderInfo</name>
+      <full_name>\Invition\Partnerclient\OrderInfo</full_name>
+      <docblock line="8">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="8" description="Default"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="9" package="Default">
+        <name>$reference</name>
+        <full_name>\Invition\Partnerclient\OrderInfo::reference</full_name>
+        <default></default>
+        <docblock line="9">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="10" package="Default">
+        <name>$shippingKind</name>
+        <full_name>\Invition\Partnerclient\OrderInfo::shippingKind</full_name>
+        <default></default>
+        <docblock line="10">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="11" package="Default">
+        <name>$partnerReference</name>
+        <full_name>\Invition\Partnerclient\OrderInfo::partnerReference</full_name>
+        <default></default>
+        <docblock line="11">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="12" package="Default">
+        <name>$created</name>
+        <full_name>\Invition\Partnerclient\OrderInfo::created</full_name>
+        <default></default>
+        <docblock line="12">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="13" package="Default">
+        <name>$status</name>
+        <full_name>\Invition\Partnerclient\OrderInfo::status</full_name>
+        <default></default>
+        <docblock line="13">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="14" package="Default">
+        <name>$destinationAddress</name>
+        <full_name>\Invition\Partnerclient\OrderInfo::destinationAddress</full_name>
+        <default></default>
+        <docblock line="14">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="15" package="Default">
+        <name>$lines</name>
+        <full_name>\Invition\Partnerclient\OrderInfo::lines</full_name>
+        <default></default>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="16" package="Default">
+        <name>$shipments</name>
+        <full_name>\Invition\Partnerclient\OrderInfo::shipments</full_name>
+        <default></default>
+        <docblock line="16">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+    </class>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="61" package="Default">
+      <extends/>
+      <name>OrderInfoLine</name>
+      <full_name>\Invition\Partnerclient\OrderInfoLine</full_name>
+      <docblock line="61">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="61" description="Default"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="62" package="Default">
+        <name>$itemSKU</name>
+        <full_name>\Invition\Partnerclient\OrderInfoLine::itemSKU</full_name>
+        <default></default>
+        <docblock line="62">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="63" package="Default">
+        <name>$imageReference</name>
+        <full_name>\Invition\Partnerclient\OrderInfoLine::imageReference</full_name>
+        <default></default>
+        <docblock line="63">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="64" package="Default">
+        <name>$linenumber</name>
+        <full_name>\Invition\Partnerclient\OrderInfoLine::linenumber</full_name>
+        <default></default>
+        <docblock line="64">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="65" package="Default">
+        <name>$quantity</name>
+        <full_name>\Invition\Partnerclient\OrderInfoLine::quantity</full_name>
+        <default></default>
+        <docblock line="65">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="66" package="Default">
+        <name>$canceledQuantity</name>
+        <full_name>\Invition\Partnerclient\OrderInfoLine::canceledQuantity</full_name>
+        <default></default>
+        <docblock line="66">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="67" package="Default">
+        <name>$shippedQuantity</name>
+        <full_name>\Invition\Partnerclient\OrderInfoLine::shippedQuantity</full_name>
+        <default></default>
+        <docblock line="67">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+    </class>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="98" package="Default">
+      <extends/>
+      <name>OrderInfoShipment</name>
+      <full_name>\Invition\Partnerclient\OrderInfoShipment</full_name>
+      <docblock line="98">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="98" description="Default"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="99" package="Default">
+        <name>$created</name>
+        <full_name>\Invition\Partnerclient\OrderInfoShipment::created</full_name>
+        <default></default>
+        <docblock line="99">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="100" package="Default">
+        <name>$shipper</name>
+        <full_name>\Invition\Partnerclient\OrderInfoShipment::shipper</full_name>
+        <default></default>
+        <docblock line="100">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="101" package="Default">
+        <name>$trackAndTraceCode</name>
+        <full_name>\Invition\Partnerclient\OrderInfoShipment::trackAndTraceCode</full_name>
+        <default></default>
+        <docblock line="101">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="102" package="Default">
+        <name>$trackAndTraceURL</name>
+        <full_name>\Invition\Partnerclient\OrderInfoShipment::trackAndTraceURL</full_name>
+        <default></default>
+        <docblock line="102">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="103" package="Default">
+        <name>$shipmentLines</name>
+        <full_name>\Invition\Partnerclient\OrderInfoShipment::shipmentLines</full_name>
+        <default></default>
+        <docblock line="103">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="105" package="Default">
+        <name>__construct</name>
+        <full_name>\Invition\Partnerclient\OrderInfoShipment::__construct()</full_name>
+        <docblock line="105">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="131" package="Default">
+      <extends/>
+      <name>OrderInfoShipmentLine</name>
+      <full_name>\Invition\Partnerclient\OrderInfoShipmentLine</full_name>
+      <docblock line="131">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="131" description="Default"/>
+      </docblock>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="132" package="Default">
+        <name>$linenumber</name>
+        <full_name>\Invition\Partnerclient\OrderInfoShipmentLine::linenumber</full_name>
+        <default></default>
+        <docblock line="132">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="public" namespace="Invition\Partnerclient" line="133" package="Default">
+        <name>$quantity</name>
+        <full_name>\Invition\Partnerclient\OrderInfoShipmentLine::quantity</full_name>
+        <default></default>
+        <docblock line="133">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="135" package="Default">
+        <name>__construct</name>
+        <full_name>\Invition\Partnerclient\OrderInfoShipmentLine::__construct()</full_name>
+        <docblock line="135">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="8" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\OrderInfo</error>
+      <error line="61" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\OrderInfoLine</error>
+      <error line="98" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\OrderInfoShipment</error>
+      <error line="131" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\OrderInfoShipmentLine</error>
+      <error line="9" code="PPC:ERR-50007">No summary for property $reference</error>
+      <error line="10" code="PPC:ERR-50007">No summary for property $shippingKind</error>
+      <error line="11" code="PPC:ERR-50007">No summary for property $partnerReference</error>
+      <error line="12" code="PPC:ERR-50007">No summary for property $created</error>
+      <error line="13" code="PPC:ERR-50007">No summary for property $status</error>
+      <error line="14" code="PPC:ERR-50007">No summary for property $destinationAddress</error>
+      <error line="15" code="PPC:ERR-50007">No summary for property $lines</error>
+      <error line="16" code="PPC:ERR-50007">No summary for property $shipments</error>
+      <error line="62" code="PPC:ERR-50007">No summary for property $itemSKU</error>
+      <error line="63" code="PPC:ERR-50007">No summary for property $imageReference</error>
+      <error line="64" code="PPC:ERR-50007">No summary for property $linenumber</error>
+      <error line="65" code="PPC:ERR-50007">No summary for property $quantity</error>
+      <error line="66" code="PPC:ERR-50007">No summary for property $canceledQuantity</error>
+      <error line="67" code="PPC:ERR-50007">No summary for property $shippedQuantity</error>
+      <error line="105" code="PPC:ERR-50015">Argument $data is missing from the Docblock of __construct</error>
+      <error line="105" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="99" code="PPC:ERR-50007">No summary for property $created</error>
+      <error line="100" code="PPC:ERR-50007">No summary for property $shipper</error>
+      <error line="101" code="PPC:ERR-50007">No summary for property $trackAndTraceCode</error>
+      <error line="102" code="PPC:ERR-50007">No summary for property $trackAndTraceURL</error>
+      <error line="103" code="PPC:ERR-50007">No summary for property $shipmentLines</error>
+      <error line="135" code="PPC:ERR-50015">Argument $data is missing from the Docblock of __construct</error>
+      <error line="135" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="132" code="PPC:ERR-50007">No summary for property $linenumber</error>
+      <error line="133" code="PPC:ERR-50007">No summary for property $quantity</error>
+    </parse_markers>
+    <source>eJzFVt9v0zAQfm7+ilNUiTKxVsDbCoMJEJpWCbGOB4RQ5DrX1jRxgu0wJrT/Hdv5ZSftMoS0PVRNzr7P5+++u8urN/k2DwJOUpQ5oQjn/BdTLOPzIBD4s2ACo4xTnETR+/PLKJqGs/coFePEbDqLY4FSTjVG+FR7zGZwtUX4JGIU53ydAU2IlEAzrgjjEkiSQIz6OZGQrYFwwN/MoG0gMz5TOFdAtXmFIFAVgmMMqxtQGvRdwpCrJxI2qOwBkKLaZvE0KA9pD/0TjPJilTAKY4FrFKjjn4OOzZ4Bje0Z4HQzhfDqw/Lq4sPX4+cvXoatq9yyPNeRXTAeW+/aADttqX1jkeVmIdTgEK6KZOdA5EQojuLSC4IWUmUpVGv9aMiKRn4kVCBRWAZhnzXzEGuTE6wiqpBlmPbxBMIsR16GRZNMYuwgxr0UluB1nvophmz1A6mC6y3yhonIMAFMOjS0ZySMYwl7JgS5MfluUrQwaz7VqU7uoe3Lej0IRrOjo2AER/CWcYWCk8S8zRqsdcGp5SeK9G2kEgVVk7Emizw1uhitM00g3ZYmIBLGO7yB16cw/kWSAstNI3nNlNmk1yoLJRIhbJIVnhjjaKy2TB6fNmZ4XeHM7fJKn7Wbt+4ebz6Eq7YBlEo50YFguqIbQKvE5WNUxqHrWKV17mFtA46O/CJS6stH6etTI3K83iPMSZW4/SdZEfrY1qThvn0vXSpFQAVkNcGsIoxEjFIrCWgE41tF4ml50u6dV1udw759N3yYx3Lx9qA4rMj7wrDme4dcV0sbdo3RDb3eOfH9/Cs0AZTXqF/3X8W8699tcBt027Jhx23NTGG6vPgydywp2aDfLP0GzdKNbtKdHsOLdIXCgflZEK6YunFMeqRQTDD+3F+yheeuPHKLMbREclf4KqjIGqgrS+ChvuCzO4DUEtsvntI+AFAnwXevrUM9qUpXtB+lm837dN2DYJ38H8S6Q9l14bjqdme2YqmuUTM7mS5a8y3TFOS1lke1tStJ0X50aLZpFjdfCB8XS6cGlCB0d8bjK/2P7/S2+YG1L5eLeX/mLu4Y00tnT/BA+v+feVRytS+/Q3K1REWEx5F5wsjQ7eP0aP5HxEIkdwDq3NyjIg+MhsU/TTQ3qf0Rsdgz4VyPSR9j/7hYtJPPNTlj4x4V1Z0ZA/3+gST6WM3RIewvKnI55A==</source>
+  </file>
+  <file path="Order.php" generated-path="Order.html" hash="e24d3e4521b3f82dc900b19da2cb85b0" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="10" package="Default">
+      <extends/>
+      <name>Order</name>
+      <full_name>\Invition\Partnerclient\Order</full_name>
+      <docblock line="10">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="10" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="42" package="Default">
+        <name>addLine</name>
+        <full_name>\Invition\Partnerclient\Order::addLine()</full_name>
+        <docblock line="42">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$itemSKU</name>
+          <default></default>
+          <type>\Invition\Partnerclient\string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$quantity</name>
+          <default></default>
+          <type>\Invition\Partnerclient\int</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="64" package="Default">
+        <name>removeLine</name>
+        <full_name>\Invition\Partnerclient\Order::removeLine()</full_name>
+        <docblock line="64">
+          <description>removeLine removes given orderline from the current order.</description>
+          <long-description>When an orderline is not related to the order (anymore), this throws an $Invition\PartnerclientExceptionLineDoesNotBelongToThisOrder;</long-description>
+        </docblock>
+        <argument line="0" by_reference="true">
+          <name>$line</name>
+          <default></default>
+          <type>\Invition\Partnerclient\OrderLine</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="83" package="Default">
+        <name>orderLines</name>
+        <full_name>\Invition\Partnerclient\Order::orderLines()</full_name>
+        <docblock line="83">
+          <description>orderLines returns an array of OrderLine objects.</description>
+          <long-description>Modifications to the array are not saved, to change the order lines, use
+AddLine and RemoveLine.</long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="87" package="Default">
+        <name>setDestinationAddress</name>
+        <full_name>\Invition\Partnerclient\Order::setDestinationAddress()</full_name>
+        <docblock line="87">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$destinationAddress</name>
+          <default></default>
+          <type>\Invition\Partnerclient\DestinationAddress</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="98" package="Default">
+        <name>setShippingMethod</name>
+        <full_name>\Invition\Partnerclient\Order::setShippingMethod()</full_name>
+        <docblock line="98">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$shippingMethodID</name>
+          <default></default>
+          <type>\Invition\Partnerclient\int</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="109" package="Default">
+        <name>setPartnerReference</name>
+        <full_name>\Invition\Partnerclient\Order::setPartnerReference()</full_name>
+        <docblock line="109">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$partnerReference</name>
+          <default></default>
+          <type>\Invition\Partnerclient\string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="121" package="Default">
+        <name>execute</name>
+        <full_name>\Invition\Partnerclient\Order::execute()</full_name>
+        <docblock line="121">
+          <description>execute sends the order to Invition\Partnerclient.</description>
+          <long-description>When an error occurs, the error object is returned.</long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="154" package="Default">
+        <name>getReference</name>
+        <full_name>\Invition\Partnerclient\Order::getReference()</full_name>
+        <docblock line="154">
+          <description>getOrderReference returns the order reference of an order that has been executed.</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <class final="false" abstract="false" namespace="Invition\Partnerclient" line="163" package="Default">
+      <extends/>
+      <implements>\JsonSerializable</implements>
+      <name>OrderLine</name>
+      <full_name>\Invition\Partnerclient\OrderLine</full_name>
+      <docblock line="163">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="163" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="180" package="Default">
+        <name>jsonSerialize</name>
+        <full_name>\Invition\Partnerclient\OrderLine::jsonSerialize()</full_name>
+        <docblock line="180">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Invition\Partnerclient" line="205" package="Default">
+        <name>setImageReference</name>
+        <full_name>\Invition\Partnerclient\OrderLine::setImageReference()</full_name>
+        <docblock line="205">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$imageReference</name>
+          <default></default>
+          <type>\Invition\Partnerclient\string</type>
+        </argument>
+      </method>
+    </class>
+    <markers>
+      <todo line="132">move to JsonSerializable impl and just json_encode($this);</todo>
+    </markers>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="10" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\Order</error>
+      <error line="163" code="PPC:ERR-50005">No summary for class \Invition\Partnerclient\OrderLine</error>
+      <error line="42" code="PPC:ERR-50015">Argument $itemSKU is missing from the Docblock of addLine</error>
+      <error line="42" code="PPC:ERR-50015">Argument $quantity is missing from the Docblock of addLine</error>
+      <error line="42" code="PPC:ERR-50008">No summary for method addLine()</error>
+      <error line="64" code="PPC:ERR-50015">Argument $line is missing from the Docblock of removeLine</error>
+      <error line="87" code="PPC:ERR-50015">Argument $destinationAddress is missing from the Docblock of setDestinationAddress</error>
+      <error line="87" code="PPC:ERR-50008">No summary for method setDestinationAddress()</error>
+      <error line="98" code="PPC:ERR-50015">Argument $shippingMethodID is missing from the Docblock of setShippingMethod</error>
+      <error line="98" code="PPC:ERR-50008">No summary for method setShippingMethod()</error>
+      <error line="109" code="PPC:ERR-50015">Argument $partnerReference is missing from the Docblock of setPartnerReference</error>
+      <error line="109" code="PPC:ERR-50008">No summary for method setPartnerReference()</error>
+      <error line="180" code="PPC:ERR-50008">No summary for method jsonSerialize()</error>
+      <error line="205" code="PPC:ERR-50015">Argument $imageReference is missing from the Docblock of setImageReference</error>
+      <error line="205" code="PPC:ERR-50008">No summary for method setImageReference()</error>
+    </parse_markers>
+    <source>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</source>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="global" full_name="global"/>
+  <namespace name="Invition\Partnerclient" full_name="Invition\Partnerclient"/>
+  <deprecated count="0"/>
+</project>

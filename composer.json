@@ -1,0 +1,25 @@
+{
+    "name": "invition/partnerclient",
+    "type": "library",
+    "description": "A generic API client to work with the Invition Partner Platform API",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Geert-Johan Riemer",
+            "email": "geertjohan@invition.eu"
+        },
+        {
+            "name": "Mike Sies",
+            "email": "mike@invition.eu"
+        }
+    ],
+    "homepage": "https://invition.eu/",
+    "require": {
+        "php": "^7.0"
+        },
+    "autoload": {
+        "psr-4": { 
+            "Invition\\Partnerclient\\": "src/"
+        }
+    }
+}
