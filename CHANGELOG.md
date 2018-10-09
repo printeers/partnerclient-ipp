@@ -1,6 +1,11 @@
 ## Changelog
 This document describes changes made to the partnerclient over time.
 
+### 2017-09-17 14:00
+
+- **BREAKING CHANGE** Rebuild client to Composer directory structure (PSR-4)
+- **BREAKING CHANGE** Namespace changed to Invition/Partnerclient
+
 ### 2017-10-12 12:00
 
 - Add housenumberAddition. This can be used to separately send the suffix/addition of a housenumber which improves shipment labels.

@@ -12,7 +12,7 @@ require_once(__DIR__ . '/Exception.php');
  * Client implements the Invition Partner API, it provides methods to create an order, upload images and get existing order info.
  */
 class Client {
-	const version = "0.1";
+	const version = "1.3";
 
 	private $partnercode;
 	private $apikey;
