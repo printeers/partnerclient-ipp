@@ -32,6 +32,7 @@ class Order {
 	private $lines;
 	
 	private $shippingKind; // set by constructor, default to "dropship"
+	private $shippingMinimalLevel;
 	
 	private $destinationAddress = null;
 	private $shippingMethodID = 0;
@@ -95,15 +96,15 @@ class Order {
 		$this->destinationAddress = $destinationAddress;
 	}
 
-	public function setShippingMethod(int $shippingMethodID) {
+	public function setShippingMinimalLevel(string $shippingMinimalLevel) {
 		if($this->shippingKind != "dropship") {
-			throw new Exception("cannot set shipping method on non-dropship order");
+			throw new Exception("cannot set shipping minimal level on non-dropship order");
 		}
 		if($this->reference != "") {
 			throw new Exception("order already executed");
 		}
 
-		$this->shippingMethodID = $shippingMethodID;
+		$this->shippingMinimalLevel = $shippingMinimalLevel;
 	}
 
 	public function setPartnerReference(string $partnerReference) {
@@ -140,8 +141,8 @@ class Order {
 		if($this->destinationAddress != null) {
 			$data["address"] = $this->destinationAddress;
 		}
-		if($this->shippingMethodID != 0) {
-			$data["shipping_method_id"] = $this->shippingMethodID;
+		if($this->shippingMinimalLevel != null) {
+			$data["shipping_minimal_level"] = $this->shippingMinimalLevel;
 		}
 		$result = $this->client->_doPost("orders", $data);
 		$this->reference = $result->reference;
@@ -162,7 +163,7 @@ class Order {
 
 class OrderLine implements \JsonSerializable {
 	private $order;
-	private $ref; // internal reference fore use in this library
+	private $ref; // internal reference for use in this library
 	private $itemSKU;
 	private $quantity;
 	private $imageReference;

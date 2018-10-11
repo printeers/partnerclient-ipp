@@ -3,7 +3,6 @@
 namespace Invition\Partnerclient;
 
 require_once(__DIR__ . '/Order.php');
-require_once(__DIR__ . '/ShippingMethods.php');
 require_once(__DIR__ . '/StockList.php');
 require_once(__DIR__ . '/OrderInfo.php');
 require_once(__DIR__ . '/Exception.php');

@@ -46,20 +46,9 @@ $line = $dropshipOrder->addLine($itemSKU, $quantity);
 // For this personalized item, we use the image reference that we got after uploading the image earlier.
 $line->setImageReference($imageReference);
 
-// Fetch shipping methods
-$shippingMethods = $client->getShippingMethods();
-
-// Select a shipping method by name
-$shippingMethodB2CLiteLarge = reset(array_filter(
-	$shippingMethods->methods,
-	function($e) {
-		return $e->name === "B2C-ParcelLiteLarge";
-	}
-));
-
-// Set preferred shipping method on the order.
-// This is optional. We will choose a shipping method when a prefered method is not set.
-$dropshipOrder->setShippingMethod($shippingMethodB2CLiteLarge->id);
+// Set minimal shipping level on the order.
+// This is optional. Value can be set to 'normal', 'tracked' or 'premium'.
+$dropshipOrder->setShippingMinimalLevel('tracked');
 
 // Create and set a custom reference on the order.
 // This value should be unique for each order.
