@@ -1,7 +1,12 @@
 ## Changelog
+
 This document describes changes made to the partnerclient over time.
 
-### 2017-09-17 14:00
+### 2018-10-11 16:00
+
+- **BREAKING CHANGE** Remove need for shipping methods, add shipping level.
+
+### 2018-09-17 14:00
 
 - **BREAKING CHANGE** Rebuild client to Composer directory structure (PSR-4)
 - **BREAKING CHANGE** Namespace changed to Invition/Partnerclient

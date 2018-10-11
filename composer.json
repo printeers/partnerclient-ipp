@@ -1,7 +1,7 @@
 {
     "name": "invition/partnerclient",
     "type": "library",
-    "description": "A generic API client to work with the Invition Partner Platform API",
+    "description": "An API client to interact with the Invition Partner Platform.",
     "license": "BSD-3-Clause",
     "authors": [
         {
