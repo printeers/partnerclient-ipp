@@ -25,6 +25,9 @@ class StockItem {
 	public $sku;
 	public $name;
 	public $availability;
+	public $attributes;
+	public $exampleImages;
+	public $renderingLayers;
 	public $public;
 	
 	/**
@@ -54,6 +57,17 @@ class StockItem {
 			case "availability":
 				$this->availability = new StockItemAvailability($value);
 				break;
+			case "attributes":
+				$this->attributes = new StockItemAttributes($value);
+				break;
+			case "example_images":
+				$this->exampleImages = $value;
+				break;
+			case "rendering_layers":
+				if (is_object($value)) {
+					$this->renderingLayers = new StockItemRenderingLayers($value);
+				}
+				break;
 			case "public":
 				$this->public = $value;
 				break;
@@ -81,6 +95,72 @@ class StockItemAvailability {
 				break;
 			case "amount_left":
 				$this->amountLeft = $value;
+				break;
+			}
+		}
+	}
+}
+
+class StockItemAttributes {
+	public $printSide; 
+	public $caseType;
+	public $caseColour;
+	public $deviceBrand;
+	public $deviceModels;
+	
+	/**
+	 * @internal
+	 */
+	public function __construct($data) {
+		foreach ($data as $key => $value) {
+			switch($key) {
+			case "print_side":
+				$this->printSide = $value;
+				break;
+			case "case_type":
+				$this->caseType = $value;
+				break;
+			case "case_colour":
+				$this->caseColour = $value;
+				break;
+			case "device_brand":
+				$this->deviceBrand = $value;
+				break;
+			case "device_models":
+				$this->deviceModels = $value;
+				break;
+			}
+		}
+	}
+}
+
+class StockItemRenderingLayers {
+	public $maskURL; 
+	public $mockupURL;
+	public $topURL;
+	public $bottomURL;
+	public $ppmm;
+	
+	/**
+	 * @internal
+	 */
+	public function __construct($data) {
+		foreach ($data as $key => $value) {
+			switch($key) {
+			case "mask_url":
+				$this->maskURL = $value;
+				break;
+			case "mockup_url":
+				$this->mockupURL = $value;
+				break;
+			case "top_url":
+				$this->topURL = $value;
+				break;
+			case "bottom_url":
+				$this->bottomURL = $value;
+				break;
+			case "ppmm":
+				$this->ppmm = $value;
 				break;
 			}
 		}
