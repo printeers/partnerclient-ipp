@@ -5,7 +5,7 @@ require_once(__DIR__."/../src/Client.php");
 require_once(__DIR__."/../src/DestinationAddress.php");
 
 // First we setup the API client and provide it with a partnercode, apikey and environment.
-$client = new \Invition\Partnerclient\Client("TESTCODE", "testkey", "local");
+$client = new \Invition\Partnerclient\Client("TESTCODE", "testkey", "test");
 
 echo "going to do dropship order\n";
 

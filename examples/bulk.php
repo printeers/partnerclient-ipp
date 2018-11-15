@@ -5,7 +5,7 @@ require_once(__DIR__."/../src/Client.php");
 require_once(__DIR__."/../src/DestinationAddress.php");
 
 // First we setup the API client and provide it with a partnercode, apikey and environment.
-$client = new \Invition\Partnerclient\Client("TESTCODE", "testkey", "local");
+$client = new \Invition\Partnerclient\Client("TESTCODE", "testkey", "test");
 
 // We're going to order an item that has a custom print.
 // Therefore, we need to upload the image through the Invition API.

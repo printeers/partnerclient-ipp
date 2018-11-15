@@ -122,4 +122,13 @@ class Client {
 		$result = $this->_doGet("orders/by-partner-reference/".$reference);
 		return new OrderInfo($result);
 	}
+
+	public function render($sku, $imageData): string {
+		$data = array(
+			"image" => base64_encode($imageData),
+			"sku" => $sku,
+		);
+		$result = $this->_doPost("render", $data);
+		return base64_decode($result->mockup);
+	}
 }

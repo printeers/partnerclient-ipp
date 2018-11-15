@@ -29,6 +29,7 @@ class StockItem {
 	public $exampleImages;
 	public $renderingLayers;
 	public $public;
+	public $kind;
 	
 	/**
 	 * @internal
@@ -70,6 +71,9 @@ class StockItem {
 				break;
 			case "public":
 				$this->public = $value;
+				break;
+			case "kind":
+				$this->kind = $value;
 				break;
 			}
 		}
