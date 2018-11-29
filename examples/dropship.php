@@ -19,11 +19,14 @@ $dest = new \Invition\Partnerclient\DestinationAddress();
 $dest->firstname = "Geert-Johan";
 $dest->lastname = "Riemer";
 $dest->streetname = "Compagniestraat";
-$dest->housenumber = "75-A";
-$dest->housenumberAddition = "";
+$dest->housenumber = "75";
+$dest->housenumberAddition = "A";
+$dest->additionalInfo = "Ring twice";
 $dest->zipcode = "1813SX";
 $dest->city = "Alkmaar";
 $dest->countryCode = "NL";
+$dest->phonenumber = "+31612345678";
+$dest->email = "geertjohan@invition.eu";
 $dropshipOrder->setDestinationAddress($dest);
 
 // We're going to order an item that has a custom print.
