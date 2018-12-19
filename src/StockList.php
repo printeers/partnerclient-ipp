@@ -106,7 +106,8 @@ class StockItemAvailability {
 }
 
 class StockItemAttributes {
-	public $printSide; 
+	public $printSide;
+	public $printFinish;
 	public $caseType;
 	public $caseColour;
 	public $deviceBrand;
@@ -120,6 +121,9 @@ class StockItemAttributes {
 			switch($key) {
 			case "print_side":
 				$this->printSide = $value;
+				break;
+			case "print_finish":
+				$this->printFinish = $value;
 				break;
 			case "case_type":
 				$this->caseType = $value;
