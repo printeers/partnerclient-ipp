@@ -24,12 +24,14 @@ class StockItem {
 	public $dimensionHeightMM;
 	public $sku;
 	public $name;
-	public $availability;
-	public $attributes;
-	public $exampleImages;
-	public $renderingLayers;
-	public $public;
 	public $kind;
+	public $public;
+	public $availability;
+	public $exampleImages;
+	public $suggestedRetailPrice;
+	public $price;
+	public $attributes;
+	public $renderingLayers;
 	
 	/**
 	 * @internal
@@ -55,25 +57,31 @@ class StockItem {
 			case "name":
 				$this->name = $value;
 				break;
+			case "kind":
+				$this->kind = $value;
+				break;
+			case "public":
+				$this->public = $value;
+				break;
 			case "availability":
 				$this->availability = new StockItemAvailability($value);
 				break;
-			case "attributes":
-				$this->attributes = new StockItemAttributes($value);
-				break;
 			case "example_images":
 				$this->exampleImages = $value;
+				break;
+			case "suggested_retail_price":
+				$this->suggestedRetailPrice = $value;
+				break;
+			case "price":
+				$this->price = $value;
+				break;
+			case "attributes":
+				$this->attributes = new StockItemAttributes($value);
 				break;
 			case "rendering_layers":
 				if (is_object($value)) {
 					$this->renderingLayers = new StockItemRenderingLayers($value);
 				}
-				break;
-			case "public":
-				$this->public = $value;
-				break;
-			case "kind":
-				$this->kind = $value;
 				break;
 			}
 		}
