@@ -92,6 +92,7 @@ class StockItemAvailability {
 	public $status; // one of: "in-stock", "low-stock", "out-of-stock"
 	public $canBackorder; // boolean, indicates whether the item can be backordered
 	public $amountLeft; // amount of stock left, only set when status = "low-stock"
+	public $expectedAvailableDate; // when present this field contains the expected date on which Invition has the item available for printing and shipping.
 	
 	/**
 	 * @internal
@@ -107,6 +108,9 @@ class StockItemAvailability {
 				break;
 			case "amount_left":
 				$this->amountLeft = $value;
+				break;
+			case "expected_available_date":
+				$this->expectedAvailableDate = date_parse($value);
 				break;
 			}
 		}
