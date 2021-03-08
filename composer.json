@@ -5,12 +5,10 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Geert-Johan Riemer",
-            "email": "geertjohan@invition.eu"
+            "name": "Geert-Johan Riemer"
         },
         {
-            "name": "Mike Sies",
-            "email": "mike@invition.eu"
+            "name": "Mike Sies"
         }
     ],
     "homepage": "https://invition.eu/",
