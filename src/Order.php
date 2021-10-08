@@ -41,7 +41,7 @@ class Order {
 	private $customReference = null;
 
 	public function addLine(string $itemSKU, int $quantity): OrderLine {
-		if($this->reference != 0) {
+		if($this->reference != "") {
 			throw new Exception("order already executed");
 		}
 
